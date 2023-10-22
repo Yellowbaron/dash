@@ -1,0 +1,47 @@
+/* Основной шрифт */
+body {
+    font-family: 'Avenir Next Cyrillic', sans-serif;
+}
+
+/* Цвета для элементов */
+.primary-color {
+    background-color: #ed1c23;
+    color: #ffffff;
+}
+
+.secondary-color {
+    background-color: #007bc2;
+    color: #ffffff;
+}
+
+/* Кнопки */
+.btn-custom {
+    background-color: #ed1c23;
+    color: #ffffff;
+    border: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: #ffffff;
+    color: #ed1c23;
+    border: 1px solid #ed1c23;
+}
+
+.sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: calc(100% - 56px);
+    width: 20%;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #f8f9fa;
+    border-right: 1px solid #ccc;
+
+}
+
+.main-content {
+    margin-left: 20%;
+    padding: 1rem;
+}
